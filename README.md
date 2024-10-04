@@ -12,7 +12,7 @@ This Python script processes employee and facility data to generate an output Ex
    - `openpyxl`
 
    You can install these libraries using pip:
-   ip install asyncio aiohttp pandas openpyxl
+   pip install asyncio aiohttp pandas openpyxl
 
 3. **Google Maps Distance Matrix API Key**: The script uses the Google Maps Distance Matrix API to fetch the distances between the employee zip codes and the facility zip codes. You'll need to obtain an API key from the Google Cloud Console and replace the `API_KEY` variable in the script with your own API key.
 
